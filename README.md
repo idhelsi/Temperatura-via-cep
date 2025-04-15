@@ -1,35 +1,21 @@
-### Consulta de Temperatura pelo CEP
+# Consulta de Temperatura pelo CEP
 
-Este projeto permite consultar a temperatura atual de uma localização informando um CEP. Ele utiliza APIs externas para obter as coordenadas geográficas e a temperatura.
+Este projeto permite consultar a temperatura atual com base no CEP fornecido pelo usuário. Utiliza as APIs ViaCEP para obter o endereço e Geoapify para as coordenadas geográficas. Os dados climáticos são recuperados da API Open Meteo. O sistema é desenvolvido em PHP, HTML e CSS, garantindo uma interface simples e responsiva.
 
 ## Funcionalidades
+- Consulta de temperatura atual a partir do CEP.
+- Validação e sanitização de dados de entrada.
+- Exibição de dados do usuário e temperatura.
 
-Formulário de Contato: Permite que o usuário insira nome, e-mail e CEP.
-
-Consulta de Coordenadas: Obtém latitude e longitude a partir do CEP.
-
-Consulta de Temperatura: Obtém a temperatura atual da localização informada. 
-
-Exibição de Dados: Mostra a temperatura da região correspondente ao CEP informado.
-
-Responsividade: Design adaptável para desktop, tablet e mobile.
+## Como Usar
+1. Insira seu nome, e-mail e CEP no formulário.
+2. Clique em "Consultar" para ver a temperatura atual.
 
 ## Tecnologias Utilizadas
+- PHP
+- HTML
+- CSS
+- APIs: ViaCEP, Geoapify, Open Meteo
 
-HTML5: Estrutura da página.
-
-CSS3: Estilo e responsividade.
-
-JavaScript: Interações dinâmicas no frontend.
-
-PHP: Backend para requisições e processamento de dados.
-
-cURL: Para chamadas de API.
-
-## APIs externas:
-
-ViaCEP: Para obter endereço a partir do CEP.
-
-Geoapify: Para obter coordenadas geográficas.
-
-Open-Meteo: Para obter dados climáticos.
+## Contribuição
+Sinta-se à vontade para contribuir com melhorias ou correções. 
